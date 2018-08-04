@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+.button-page {
+  width: 600px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #f2f2f2;
+  max-width: 600px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.wrap button {
+  font-family: 'Ubuntu', sans-serif;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: bold 700;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.wrap button:hover,.wrap button:active,.wrap button:focus {
+  background: #43A047;
+}
+.form .msg {
+  margin: 15px 0 0;
+  font-size: 13px;
+  color: #f91a1a;
+  text-decoration: none;
+}
+body {
+  background: #76b852;
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+table{
+    width: 100%;
+    margin: 30px auto;
+    text-align: left;
+}
+tr {
+    background-color: #4CAF50;
+}
+th {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 30px;
+    padding: 2px;
+}
+td {
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #43A047;
+}
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    background: #d60a23;
+    cursor: pointer;
+}
+.del_btn:hover,.del_btn:active,.del_btn:focus {
+  background: #b3091e;
+}
+.wrap {
+    text-align: center;
+}
