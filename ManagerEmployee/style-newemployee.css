@@ -1,0 +1,42 @@
+body {
+    font-size: 19px;
+}
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+.input {
+    margin: 10px 0px 10px 0px;
+}
+.input label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input button {
+    text-align: center;
+}
+#submit, #back {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    background: #32cd32;
+    border: none;
+    border-radius: 20px;
+}
+#back {
+    background: #800000;
+}

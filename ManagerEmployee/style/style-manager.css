@@ -1,0 +1,36 @@
+body {
+    font-size: 17px;
+    font-family: 'Texta-Light', sans-serif;
+    
+}
+
+
+.manager_buttons_group{
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 60px 10px; 
+    border: 0.5px solid #696969; 
+    border-radius: 10px;
+    
+}
+
+.create_btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    border-radius: 10px;
+    background: #32cd32;
+    
+}
+
+.show_btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    border-radius: 10px;
+    background: #32cd32;
+ 
+}

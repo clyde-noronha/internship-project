@@ -1,0 +1,56 @@
+body {
+    font-size: 19px;
+    font-family: 'Texta-Light', sans-serif;
+}
+.container {
+	width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+#edit, #update, #cancel, .container #logout {
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    background: #32cd32;
+    border: none;
+    border-radius: 20px;
+}
+.container #logout{
+    background: #808080;
+}
+#update {
+    background: #32cd32;
+}
+#cancel {
+    background: #808080;
+}
+.formfield {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+.input {
+    margin: 10px 0px 10px 0px;
+}
+.input label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input button {
+    text-align: center;
+}

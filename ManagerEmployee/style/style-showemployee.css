@@ -1,0 +1,39 @@
+body {
+    font-size: 19px;
+    font-family: 'Texta-Light', sans-serif;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;   
+    color: white;
+    border-radius: 10px;
+    background: #a52a2a;
+}
+.wrap {
+    text-align: center;
+}
+#back {
+    padding: 15px;
+    font-size: 22px;
+    color: white ;
+    background: #32cd32;
+    border: none;
+    border-radius: 20px;
+}
