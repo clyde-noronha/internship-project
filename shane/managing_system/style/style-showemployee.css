@@ -1,0 +1,31 @@
+ebody {
+    font-size: 19px;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #80f215;
+}
+
+
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 50px;
+    color: white;
+    border-radius: 3px;
+    background: #00bbff;
+}
