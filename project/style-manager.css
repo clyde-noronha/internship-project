@@ -1,0 +1,32 @@
+body {
+    font-size: 30px;   
+	background: #AAB7B8;
+}
+
+
+.manager_buttons_group{
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 60px 10px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.create_btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 60px;
+    color: white;
+    border-radius: 20px;
+    background: #FF0000;
+}
+
+.show_btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    border-radius: 20px;
+    background: #FF0000;
+}@media(max-width: 1100px){a:font-size: 14px;}

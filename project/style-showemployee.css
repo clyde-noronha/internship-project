@@ -1,0 +1,39 @@
+body {
+    font-size: 19px;  
+	background: #AAB7B8;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #1C6EA4;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #9B59B6;
+}
+.wrap {
+    text-align: center;
+}
+#back {
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    background: #873600;
+    border: none;
+    border-radius: 5px;
+}
